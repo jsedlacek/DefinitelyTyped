@@ -331,6 +331,7 @@ export interface IndexOptions {
     expireAfterSeconds?: number;
     // Override the auto generated index name (useful if the resulting name is larger than 128 bytes)
     name?: string;
+    partialFilterExpression: any;
 }
 
 // http://mongodb.github.io/node-mongodb-native/2.1/api/Admin.html
